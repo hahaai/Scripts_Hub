@@ -1,0 +1,8 @@
+#!/bin/bash
+
+
+for i in `find -iname '*T1_X*'` ; 
+	
+do ./mri_deface i talairach_mixed_with_skull.gca face.gca /home/lai/maskface/ T!_test.nii
+ 
+done
