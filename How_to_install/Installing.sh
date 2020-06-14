@@ -1,4 +1,6 @@
 ################ install singularity 
+# https://singularity.lbl.gov/install-linux
+# https://singularity.lbl.gov/docs-installation
 sudo yum groupinstall "Development Tools"
 sudo yum install libarchive-devel
 sudo yum install squashfs-tools
